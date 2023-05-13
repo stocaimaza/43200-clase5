@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    margin-bottom: 20px;
+    width: 50vw;
+    margin: auto;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #0069d9;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0052a3;
+}
